@@ -1,8 +1,16 @@
 # Next JS (Net Ninja)
 This is an application created using NEXT JS.
 
+## Ways to write CSS in your next JS project
+- global styles Sheet
+- styles jsx: helps you write css in react components
+- css modules
+
 ## New Dependencies Used
-- `next/link`
+- `next/link`: <Link/>
+- `next/router`: useRouter
+- `next/image`: <Image/>
+- `next/head`: <Head/>
 
 ## Old Dependancies Used
 
