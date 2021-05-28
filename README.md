@@ -6,15 +6,15 @@ This is an application created using NEXT JS.
 - styles jsx: helps you write css in react components
 - css modules
 
-## New Dependencies Used
-- `next/link`: <Link/>
+## Dependencies Used
+- `next/link`: <Link href={} />
 - `next/router`: useRouter
 - `next/image`: <Image/>
 - `next/head`: <Head/>
 
-## Old Dependancies Used
-
 ## Flow of the Application
+- `getStaticProps`: to get the data for the component in the form of props
+- `getStaticPaths`: when using dynamic data extract all possible paths
 
 ## Some Important Commands
 - `npx create-next-app appname`: to create a boiler plate for next js applications
