@@ -1,9 +1,10 @@
 import Navbar from './Navbar'
 import Footer from './Footer'
+import classes from './Layout.module.css'
 
 const Layout = ({children}) => {
     return (
-        <div>
+        <div className={classes.Container}>
             <Navbar/>
             {children}
             <Footer/>
