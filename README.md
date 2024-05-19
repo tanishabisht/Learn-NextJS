@@ -1,24 +1,44 @@
-# Next JS (Net Ninja)
-This is an application created using NEXT JS.
+# Learn - Next.js
 
-## Ways to write CSS in your next JS project
-- global styles Sheet
-- [styles jsx](https://nextjs.org/blog/styling-next-with-styled-jsx): helps you write css in react components
-- css modules
+This application is built using Next.js, leveraging the practical insights and tutorials from [The Net Ninja’s Next.js playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9g9gP2onazU5-2M-AzA8eBw).
 
-## Dependencies Used
-- next/link: `<Link href={}><a> LINK </a></Link>`
-- next/router: `useRouter` `Router.push()`
-- next/image: `<Image />`
-- next/head: `<Head />`
+![Application Demo](/demo.gif)
 
-## Flow of the Application
-- `getStaticProps`: to get the data for the component in the form of props
-- `getStaticPaths`: when using dynamic data extract all possible paths
-- `_error.js`: to handle 404 pages
 
-## Some Important Commands
-- `npx create-next-app appname`: to create a boiler plate for next js applications
-- `npm run dev` : Starts the development server.
-- `npm run build` : Builds the app for production.
-- `npm start` : Runs the built app in production mode.
+## Instructions to run the application
+Follow these instructions to get the application running:
+1. Install Node.js version 14.21.3:
+   - `nvm install v14.21.3`
+   - `nvm use v14.21.3`
+2. Install necessary packages:
+   - `npm install`
+3. Start the application:
+   - To run the project : `npm run dev`
+
+
+## CSS Styling Options in Next.js
+There are several methods to handle CSS in your Next.js projects:
+- **Global Stylesheet**: Standard CSS files that affect all components globally.
+- **Styled JSX**: Enables scoped CSS support in React components. More details can be found on the [Next.js blog](https://nextjs.org/blog/styling-next-with-styled-jsx).
+- **CSS Modules**: CSS files in which all class names and animation names are scoped locally by default.
+
+
+## Next.js inbuilt dependencies and features
+- **next/link**: Simplifies navigation between pages (`<Link href="/path"><a>Link Text</a></Link>`).
+- **next/router**: Facilitates programmatic navigation (`useRouter`, `Router.push()`).
+- **next/image**: Optimized image component (`<Image src="/path/to/image" alt="description" />`).
+- **next/head**: Allows you to manipulate the `<head>` of a page (`<Head><title>Page Title</title></Head>`).
+- **getStaticProps**: Fetches data at build time to pass as props to your page.
+- **getStaticPaths**: Determines dynamic paths based on the data fetched.
+- **_error.js**: Handles custom rendering of error pages, like 404 Not Found.
+
+
+## Common Commands
+- `npx create-next-app appname`: Creates a new Next.js project.
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the application for production.
+- `npm start`: Runs the application in production mode.
+
+
+## Technologies used
+`html` `css` `nextjs` `css modules`
